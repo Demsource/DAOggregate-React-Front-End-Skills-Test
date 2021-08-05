@@ -2,8 +2,14 @@ import { useRef, useState, useEffect } from "react";
 import DaoRow from "./DaoRow";
 import "./daoList.css";
 
-function DaoList({ list, allDisplayDao, updateAllDisplayDao, searchBy, filterBy }) {
-    const [activeHeaderCol, setActiveHeaderCol] = useState("h-col-name");
+function DaoList({
+  list,
+  allDisplayDao,
+  updateAllDisplayDao,
+  searchBy,
+  filterBy,
+}) {
+  const [activeHeaderCol, setActiveHeaderCol] = useState("h-col-name");
   const colNameArrow = useRef(null);
   const colCategoryArrow = useRef(null);
   const colAUMArrow = useRef(null);
@@ -20,7 +26,9 @@ function DaoList({ list, allDisplayDao, updateAllDisplayDao, searchBy, filterBy 
         )
       );
     }
+  }, [list, searchBy]);
 
+  useEffect(() => {
     if (filterBy === "all") {
       updateAllDisplayDao(list);
     } else {
@@ -30,7 +38,7 @@ function DaoList({ list, allDisplayDao, updateAllDisplayDao, searchBy, filterBy 
         })
       );
     }
-  }, [list, searchBy, filterBy]);
+  }, [list, filterBy]);
 
   const hColClick = (activeHeaderColClassName, arrowRef) => {
     setActiveHeaderCol(activeHeaderColClassName);
