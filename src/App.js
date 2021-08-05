@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./client/Home";
+import DaoContent from "./client/DaoContent";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/DAOggregate-React-Front-End-Skills-Test">
+          <Home />
+        </Route>
+        <Route path="/DAOggregate-React-Front-End-Skills-Test/dao">
+          <Home header />
+          <DaoContent />
+        </Route>
+        <Route path="*">
+          <Redirect to="/DAOggregate-React-Front-End-Skills-Test" />
+        </Route>
+      </Switch>
     </div>
   );
 }

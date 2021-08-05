@@ -1,0 +1,53 @@
+.dao .summary {
+  display: flex;
+}
+.summary .s-side {
+  width: 50%;
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+  height: 80px;
+  /* overflow: hidden; */
+  padding: 24px;
+}
+.summary .s-side:last-child {
+  border-left: 2px solid gainsboro;
+  border-radius: 0 5px 5px 0;
+}
+
+.summary .s-side .s-content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary .s-side .s-content .c-comparision .comp-now {
+  color: #827081;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.summary .s-side .s-content .c-comparision .comp-before {
+  color: #aea3b0;
+}
+
+.summary .s-side .s-content .result-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary .s-side .s-content .result-content .arrow-result{
+  display: flex;
+  background-color: lightgreen;
+  border-radius: 15px;
+  padding: 4px 7px;
+}
+
+.summary .s-side .s-content .result-content img {
+  height: 1rem;
+}
+
+.summary .s-side .s-content .result-content span {
+  font-size: 1rem;
+}

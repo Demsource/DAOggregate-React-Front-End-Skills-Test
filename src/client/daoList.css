@@ -1,0 +1,74 @@
+.dao .dao-list {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.dao .dao-list .header-wrapper {
+  border-bottom: 2px solid #e3d0d8;
+  color: #827081;
+  padding: 10px 0;
+}
+
+.dao .dao-list .header th {
+  padding-bottom: 15px;
+}
+
+.dao .dao-list .header .h-col {
+  cursor: pointer;
+  opacity: 0.37;
+}
+#active-col {
+  opacity: 1;
+}
+
+.dao .dao-list .arrow {
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.arrow-up {
+  border-bottom: 5px solid black;
+}
+.arrow-down {
+  border-top: 5px solid black;
+}
+
+/* DAO LIST, row */
+
+.dao table th,
+.dao table td {
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+.dao table td.d-col-social-icons a {
+  margin: 0 5px;
+}
+
+.dao table .list tr:first-child td{
+  padding-top: 10px;
+}
+.dao table td.d-col-name img {
+  height: 20px;
+  margin: 6px;
+  border-radius: 3px;
+}
+
+.dao table td.d-col-social-icons img {
+  cursor: pointer;
+  height: 20px;
+}
+
+/* FLEXING */
+.flex {
+  display: flex;
+}
+.ai-c-flex {
+  align-items: center;
+}
+.jc-c-flex {
+  justify-content: center;
+}

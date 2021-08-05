@@ -1,0 +1,23 @@
+.dao .search {
+  position: relative;
+  margin: 10px 0 20px 0;
+  border-bottom: 2px solid #e3d0d8;
+  padding-bottom: 10px;
+}
+
+.dao .search .icon {
+  position: absolute;
+  height: 25px;
+}
+
+.dao .search input {
+  background-color: inherit;
+  border: none;
+  padding-left: 30px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.dao .search input:focus {
+  outline: none;
+}
