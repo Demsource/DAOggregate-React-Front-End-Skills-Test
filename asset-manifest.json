@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DAOggregate-React-Front-End-Skills-Test/static/css/main.208e8d6c.chunk.css",
+    "main.js": "/DAOggregate-React-Front-End-Skills-Test/static/js/main.2bf64c62.chunk.js",
+    "main.js.map": "/DAOggregate-React-Front-End-Skills-Test/static/js/main.2bf64c62.chunk.js.map",
+    "runtime-main.js": "/DAOggregate-React-Front-End-Skills-Test/static/js/runtime-main.24ca504e.js",
+    "runtime-main.js.map": "/DAOggregate-React-Front-End-Skills-Test/static/js/runtime-main.24ca504e.js.map",
+    "static/js/2.874c2a6f.chunk.js": "/DAOggregate-React-Front-End-Skills-Test/static/js/2.874c2a6f.chunk.js",
+    "static/js/2.874c2a6f.chunk.js.map": "/DAOggregate-React-Front-End-Skills-Test/static/js/2.874c2a6f.chunk.js.map",
+    "static/js/3.669cefb1.chunk.js": "/DAOggregate-React-Front-End-Skills-Test/static/js/3.669cefb1.chunk.js",
+    "static/js/3.669cefb1.chunk.js.map": "/DAOggregate-React-Front-End-Skills-Test/static/js/3.669cefb1.chunk.js.map",
+    "index.html": "/DAOggregate-React-Front-End-Skills-Test/index.html",
+    "static/css/main.208e8d6c.chunk.css.map": "/DAOggregate-React-Front-End-Skills-Test/static/css/main.208e8d6c.chunk.css.map",
+    "static/js/2.874c2a6f.chunk.js.LICENSE.txt": "/DAOggregate-React-Front-End-Skills-Test/static/js/2.874c2a6f.chunk.js.LICENSE.txt",
+    "static/media/dao-logo.bedf26f6.svg": "/DAOggregate-React-Front-End-Skills-Test/static/media/dao-logo.bedf26f6.svg",
+    "static/media/green-arrow.91d56aca.svg": "/DAOggregate-React-Front-End-Skills-Test/static/media/green-arrow.91d56aca.svg",
+    "static/media/red-arrow.fb80aaf5.svg": "/DAOggregate-React-Front-End-Skills-Test/static/media/red-arrow.fb80aaf5.svg",
+    "static/media/search.e0ab335d.svg": "/DAOggregate-React-Front-End-Skills-Test/static/media/search.e0ab335d.svg",
+    "static/media/twitterIcon.b3d61d5d.svg": "/DAOggregate-React-Front-End-Skills-Test/static/media/twitterIcon.b3d61d5d.svg",
+    "static/media/webpageIcon.2709d46e.svg": "/DAOggregate-React-Front-End-Skills-Test/static/media/webpageIcon.2709d46e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24ca504e.js",
+    "static/js/2.874c2a6f.chunk.js",
+    "static/css/main.208e8d6c.chunk.css",
+    "static/js/main.2bf64c62.chunk.js"
+  ]
+}
